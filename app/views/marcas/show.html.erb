@@ -1,0 +1,10 @@
+<p id="notice"><%= notice %></p>
+<div class="container bg-warning">
+<p>
+  <strong>Nombre:</strong>
+  <%= @marca.nombre %>
+</p>
+
+<%= link_to 'Editar', edit_marca_path(@marca), :class => "btn btn-success" %> |
+<%= link_to 'Atras', marcas_path, :class => "btn btn-info" %>
+</div>

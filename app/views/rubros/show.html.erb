@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+<div class="container bg-warning">
+<p>
+  <strong>Nombre:</strong>
+  <%= @rubro.nombre %>
+</p>
+
+<p>
+  <strong>Perecedero:</strong>
+  <%= @rubro.perecedero %>
+</p>
+
+<%= link_to 'Editar', edit_rubro_path(@rubro), :class => "btn btn-success" %> |
+<%= link_to 'Atras', rubros_path, :class => "btn btn-info" %>
+</div>
